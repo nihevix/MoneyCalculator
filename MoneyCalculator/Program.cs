@@ -1,15 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using MoneyCalculator;
 
+
+Console.WriteLine("\n test execution with simple string commands  \n");
 OldEnglishPound wall = new OldEnglishPound();
-//test1 : Execute 
 Console.WriteLine(wall.Execute("5p 17s 8d + 3p 4s 10d"));
 Console.WriteLine(wall.Execute("9p 2s 6d - 5p 17s 8d"));
 Console.WriteLine(wall.Execute("5p 17s 8d * 2"));
 Console.WriteLine(wall.Execute("5p 17s 8d / 3"));
 Console.WriteLine(wall.Execute("18p 16s 1d / 15"));
 
-//test2 : Extra point
+Console.WriteLine("\n test execution with combined commands of the class \n");
 OldEnglishPound wall2 = new OldEnglishPound("5p 17s 8d");
 OldEnglishPound wall3 = new OldEnglishPound("3p 4s 10d");
 OldEnglishPound wall4 = new OldEnglishPound();
