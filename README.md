@@ -21,7 +21,7 @@ conversion program for Pounds, Shillings and Pennies.
 
 5p 17s 8d  + 3p 4s 10d  = 9p 2s 6d
 
-5p 17s 8d  + 3p 4s 10d  - 5p 17s 8d  = 0p 0s 0d
+5p 17s 8d  + 3p 4s 10d  - 5p 17s 8d  = 3p 4s 10d
 
 (5p 17s 8d  + 3p 4s 10d ) *2 = 18p 5s 0d
 
