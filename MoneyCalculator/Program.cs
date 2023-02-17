@@ -19,7 +19,7 @@ OldEnglishPound wall6 = new OldEnglishPound();
 OldEnglishPound wall7 = new OldEnglishPound();
 
 wall4.Sum(wall2).Sum(wall3);
-wall5.Sum(wall2).Sum(wall3).Sub(wall4);
+wall5.Sum(wall2).Sum(wall3).Sub(wall2);
 
 int multiplier = 2;
 wall6.Sum(wall2).Sum(wall3).Multiply(multiplier);
